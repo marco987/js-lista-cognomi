@@ -27,6 +27,5 @@ for (var i = 0; i < contenitore_cognomi.length; i++) {
 }
 
 // Stampa posizione cognome utente
-(contenitore_cognomi.indexOf(cognome_utente)) + 1;
-console.log((contenitore_cognomi.indexOf(cognome_utente)) + 1);
-document.getElementById("posizionecognome").innerHTML = "Il tuo cognome è in posizione " + (contenitore_cognomi.indexOf(cognome_utente)) + 1;
+var posizione_cognome = (contenitore_cognomi.indexOf(cognome_utente)) + 1;
+document.getElementById("posizionecognome").innerHTML = "Il tuo cognome è in posizione " + posizione_cognome;
